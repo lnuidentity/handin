@@ -79,7 +79,7 @@ line-height: 1.5;
 }
 
 .link-button:hover{
-  background-color: #058381 ;
+  background-color:  #230484 ;
 }
 
 .service{
@@ -260,7 +260,7 @@ margin-right: 0;
 }
 
 .link-button-case{
-  background-color: #069390;
+  background-color:  #230484;
   display: inline-block;
   min-width: 180px;
   line-height: 48px;
@@ -358,7 +358,7 @@ margin-bottom: 40px;
 }
 
 .link-button-process{
-  background-color: #069390;
+  background-color:  #230484;
   display: inline-block;
   min-width: 180px;
   line-height: 48px;
@@ -497,7 +497,56 @@ margin-right: 0;
 }
 
 
+.case-contact {
+    text-align: center;
+    padding: 70px 20px;
+}
 
+.case-contact p {
+    font-size: 14px;
+    line-height: 1.8;
+    margin-bottom: 25px;
+    color: #380D83;
+}
+
+.case-contact-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    min-width: 230px;
+    height: 48px;
+    padding: 0 20px;
+    background: #230484;
+    color: #FFFCFC;
+    border-radius: 24px;
+    text-decoration: none;
+    font-family: "Zen Kaku Gothic New", sans-serif;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.case-contact-button:hover {
+    opacity: 0.8;
+}
+
+.case-contact-button span {
+    transition: transform 0.3s;
+}
+
+.case-contact-button:hover span {
+    transform: translate(3px, -3px);
+}
+
+@media (max-width: 800px) {
+    .case-contact {
+        padding: 55px 20px;
+    }
+
+    .case-contact p {
+        font-size: 13px;
+    }
+}
 
 
 

@@ -1,27 +1,33 @@
+
 <!DOCTYPE html>
-<html>
+<html lang="ja">
 
 <head>
     <meta charset="UTF-8">
-    <title>Case|Handin official website</title>
-    <meta name="description" content="実績や過去の事例を紹介します。">
+    <title>All Cases | Handin official website</title>
+    <meta name="description" content="Handinの制作実績をご紹介します。マップ制作、Web制作、イラスト制作などの事例をご覧いただけます。">
     <meta name="viewport" content="width=device-width">
+
     <script src="./js/toggle-menu.js"></script>
-    <link href="./css/common.css" rel="stylesheet">  
-    <link href="./css/case.css" rel="stylesheet" >
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&family=Zen+Kaku+Gothic+New:wght@700&display=swap" rel="stylesheet">
+    <link href="./css/common.css" rel="stylesheet">
+    <link href="./css/case.css" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=Zen+Kaku+Gothic+New:wght@500;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <!--  headerここから -->
+
+    <!-- header -->
     <header class="header">
         <div class="header-inner">
             <a class="header-logo" href="./index.html">
                 <img src="./images/common/logo-header.png" alt="Handin">
             </a>
+
             <button class="toggle-menu-button"></button>
+
             <div class="header-site-menu">
                 <nav class="site-menu">
                     <ul>
@@ -34,103 +40,172 @@
             </div>
         </div>
     </header>
-    <!-- headerここまで  -->
- 
-    <!-- mainここから -->
+
+    <!-- main -->
     <main class="main">
-        <div class="title">
-            <h1>Case</h1>
-            <p>実績</p>
-        </div>
-    
-        <div class="case">
-            <div class="bg-circle1"></div>
-    
-            <div class="case-toptext">
-                <h2>地域まちづくりマップ制作</h2>
-                <p>地域の情報や魅力を整理し、わかりやすく伝わるマップに可視化しました。</p>
-            </div>
-            <img src="./images/case/casetop.png" alt="">
+
+        <!-- ページタイトル -->
+        <section class="case-page-title">
+            <h1>All Cases</h1>
+            <p>実績一覧</p>
+        </section>
+
+<!-- イントロ -->
+<section class="case-intro fade-in">
+    <h2>想いを整理し、伝えるデザイン。</h2>
+    <p class="case-intro-text">
+        地域や人の想いを、伝わるかたちに。
+        Handinが手がけた制作事例をご紹介します。
+    </p>
+</section>
+
+        <!-- カテゴリーナビ -->
+        <nav class="case-category-nav fade-in">
+            <a href="#map-design">Map Design <span>↘</span></a>
+            <a href="#web-design">Web Design <span>↘</span></a>
+            <a href="#illustration">Illustration <span>↘</span></a>
+        </nav>
 
 
-        </div>
-    
-        <img src="./images/case/Ue.png" alt="矢印" class="thumb-img">
+            <!-- =========================
+             Web Design
+        ========================= -->
 
-        <div class="case reverse">
-            <div class="bg-circle2"></div>
-    
-            <div class="case-text">
-                <h3>ご相談内容</h3>
-                <p> “まちの魅力を知って、もっと好きになる”ことを目的に、
-                    地域の方々から集まった「お気に入りの場所」を、1枚のマップとしてまとめたいというご相談でした。</p>
-                <h3>課題</h3>
-                <p>地域情報の量が多く、1枚のマップにまとめることが課題でした</p>
-                <h3>背景</h3>
-                <p>湘南大庭地区は、30年前に整備された住宅地で、
-                    現在は高齢化が進む一方、地域活動も盛んなエリアです。
-                    年１回の”ふるさとまつり”では、世代を超えて地域の方々が参加されており、地域への愛着やあたたかさを感じました。</p>
-            </div>
-            <img src="./images/case/caseue.png" alt="">
-        </div>
+        <section class="case-category fade-in" id="web-design">
 
-                <img src="./images/case/Naka.png" alt="矢印" class="thumb-img">
-
-    
-        <div class="case">
-            <div class="bg-circle3"></div>
-    
-            <div class="case-text">
-                <h3>進め方</h3>
-                <p>郷土づくり推進会議のMAP部会の皆さまの月1回の議事録をご共有
-                    いただき、修正箇所などの確認を行い作業を進めました。</p>
-                    <h3>工夫した点</h3>
-                    <p> タイトルに手書き文字を取り入れることでマップ全体に柔らかい印象を与えつつ、若い世代にも親しみやすい色合いを心がけました。制作にあたっては、掲載情報を事前にExcelへまとめていただくことでスムーズに作業を進行。また、情報が集中する地域についても視認性を損なわないよう、レイアウトや配置を意識して作成しています。</p>
-                    </div>
-            <img src="./images/case/casenaka.JPEG" alt="">
-        </div>
-    
-                <img src="./images/case/sita.png" alt="矢印" class="thumb-img">
-
-        <div class="case reverse">
-            <div class="bg-circle4"></div>
-    
-            <div class="case-text">
-                <h3>制作後</h3>
-                <p>地域の方々から集まった53か所の「お気に入りの場所」が、1枚のマップになりました。
-                    イベント配布用として100部印刷された後、
-                    市民センターのご協力により1,000部増刷。
-                   現在は、地域資料として図書館にもご登録をいただき、どなたでも手に取ることができるようになりました。大学生からは、「市外から転居してきた人にもわかりやすい」という声をいただきました。
-                    また、地域情報を調べに図書館を訪れた小学生の男の子にも、地元の地図があることを喜んでいただけたそうです。<br>
+            <div class="case-section-heading">
+                <div>
+<p class="case-section-en">Web Design</p>
+<h2>ウェブサイト制作</h2>
+                </div>
+                <p class="case-section-description">
+                    情報や想いを整理し、
+                    伝わりやすいWebサイトへ。
                 </p>
-                <p><br>Client Messages：梅原さんは、制作前に実際に地域を訪れ、まちの雰囲気を丁寧に感じ取ったうえでデザインしてくださいました。細部まで心を込めた誠実な仕事ぶりと高いデザインカにより、子どもからお年寄りまで多くの方に親しまれる、おしゃれで温かみのあるマップが完成し、感謝でいっぱいです。-湘南大庭地区郷土づくり推進会議（まちづくり会議・♡VER 湘南）MAP部会-</p>
             </div>
-            <img src="./images/case/casesita.JPEG" alt="">
-        </div>  
-     </main>
-    　　<!-- mainここまで -->
- 
-<!-- footerここから -->
+
+            <div class="case-empty">
+                <p>Coming Soon</p>
+            </div>
+
+        </section>
+
+        <!-- =========================
+             Illustration
+        ========================= -->
+
+        <section class="case-category fade-in" id="illustration">
+
+            <div class="case-section-heading">
+                <div>
+<p class="case-section-en">Illustration</p>
+<h2>図解・イラスト制作</h2>
+                </div>
+                <p class="case-section-description">
+                    言葉だけでは伝えにくいことを、
+                    視覚的にわかりやすく。
+                </p>
+            </div>
+
+            <div class="case-empty">
+                <p>Coming Soon</p>
+            </div>
+
+        </section>
+
+        <!-- =========================
+             Map Design
+        ========================= -->
+
+        <section class="case-category fade-in" id="map-design">
+
+            <div class="case-section-heading">
+                <div>
+<p class="case-section-en">Map Design</p>
+<h2>マップ制作</h2>
+                </div>
+                <p class="case-section-description">
+                    地域の魅力や情報を整理し、
+                    見る人に伝わるマップへ。
+                </p>
+            </div>
+
+            <!-- MAP-01 -->
+            <div class="case-project-grid">
+
+                <a class="case-project-card" href="./case-map-01.html">
+
+                    <div class="case-project-image">
+                        <img src="./images/case/casetop.png"
+                             alt="ハッピーマっぷの完成写真">
+                        <span class="case-project-arrow">↗</span>
+                    </div>
+
+                    <div class="case-project-info">
+
+                        <div class="case-project-meta">
+                            <span class="case-project-number">Map-01</span>
+                            <span class="case-project-type">Map</span>
+                        </div>
+
+                        <h3>湘南大庭HappyMap</h3>
+
+                        <p>
+                            地域の魅力を、一枚のマップに。
+                        </p>
+
+                        <span class="case-project-link">
+                            View Project <span>↗</span>
+                        </span>
+
+                    </div>
+
+                </a>
+
+                <!-- 2件目以降は、このcase-project-cardを複製して追加 -->
+
+            </div>
+
+        </section>
+
+
+
+
+
+
+
+    </main>
+
+
+    <!-- footer -->
     <footer class="footer">
+
         <nav class="site-menu">
             <ul>
-                        <li><a href="./index.html">Home</a></li>
-                        <li><a href="./about.html">About</a></li>
-                        <li><a href="./case.html">Case</a></li>
-                        <li><a href="./contact.html">Contact</a></li>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./about.html">About</a></li>
+                <li><a href="./case.html">Case</a></li>
+                <li><a href="./contact.html">Contact</a></li>
             </ul>
         </nav>
+
         <a class="footer-logo" href="./index.html">
             <img src="./images/common/logo-footer.png" alt="Handin">
         </a>
 
-<ul class="sns-btn">
-  <li><a href="https://www.instagram.com/handin.japan?utm_source=qr" target="_blank"><img src="./images/common/sns-btn-ig.png" alt="Instagram"></a></li>
-</ul>
+        <ul class="sns-btn">
+            <li>
+                <a href="https://www.instagram.com/handin.japan?utm_source=qr" target="_blank" rel="noopener noreferrer">
+                    <img src="./images/common/sns-btn-ig.png" alt="Instagram">
+                </a>
+            </li>
+        </ul>
 
-        <p class="copyright"><small>&copy;Handin</small></p>
+        <p class="copyright">
+            <small>&copy;Handin</small>
+        </p>
+
     </footer>
-
-    <!-- footerここまで -->
+<script src="./js/fadein.js"></script>
 </body>
 </html>
