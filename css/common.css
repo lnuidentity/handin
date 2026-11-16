@@ -390,3 +390,7 @@ body.menu-open {
     opacity: 1;
     transform: translateY(0);
 }
+
+.first-view .fade-in {
+    transition-duration: 1.2s;
+}
