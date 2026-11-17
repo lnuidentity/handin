@@ -6,7 +6,6 @@
 ========================= */
 
 .case-page-title {
-    height: 310px;
     background-image: url("../images/case/bgcase.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -20,7 +19,8 @@
 
 .case-page-title h1 {
     font-family: var(--font-heading);
-    font-size: 36px;
+    font-weight: 700;
+font-size: 36px;
 }
 
 .case-page-title p {
@@ -129,7 +129,7 @@
 
 .case-section-heading h2 {
     font-size: 13px;
-    font-weight: 500;
+    font-weight: 700;
     margin-top: 5px;
 }
 
@@ -293,6 +293,7 @@
 .case-empty p {
     font-family: var(--font-heading);
     font-size: 13px;
+    font-weight: 700;
     letter-spacing: 0.12em;
     color: #888;
 }

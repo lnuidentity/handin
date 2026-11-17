@@ -6,18 +6,33 @@
 ========================== */
 
 :root {
-       --color-primary: #380D83;
+    /* カラーパレット */
+    --color-primary: #380D83;
     --color-base: #FFFCFC;
     --color-light-gray: #DDE7EB;
     --color-turquoise: #06939D;
 
+    /* フォント */
     --font-heading: "Zen Kaku Gothic New", sans-serif;
     --font-body: "Noto Sans JP", sans-serif;
 
+    /* フォントウェイト */
+    --weight-body: 500;
+    --weight-body-emphasis: 500;
+    --weight-heading: 700;
+
+    /* 共通レイアウト */
     --content-width: 1200px;
+    --side-padding: 40px;
+
+    /* 共通余白 */
+    --section-space: 100px;
+    --section-space-mobile: 64px;
+
+    /* ページタイトル */
+    --page-title-height: 310px;
+    --page-title-height-mobile: 200px;
 }
-
-
 /* ==========================
    リセット・基本設定
 ========================== */
@@ -35,9 +50,9 @@ html {
 }
 
 body {
-    font-family: var(--font-body), sans-serif;
+    font-family: var(--font-body);
     font-size: 16px;
-    font-weight: 500;
+    font-weight: var(--weight-body);
     line-height: 1.8;
     color: var(--color-primary);
     background-color: var(--color-base);
@@ -85,6 +100,12 @@ main {
     position: relative;
 }
 
+.container {
+    width: calc(100% - var(--side-padding) * 2);
+    max-width: var(--content-width);
+    margin-inline: auto;
+}
+
 
 /* ==========================
    ヘッダー
@@ -130,7 +151,7 @@ main {
 .site-menu li {
     margin: 0 20px;
     font-family: var(--font-heading);
-    font-weight: 700;
+    font-weight: var(--weight-heading);
 }
 
 .site-menu a {
@@ -199,7 +220,7 @@ main {
 .copyright {
     margin-top: 30px;
     font-size: 14px;
-    font-weight: bold;
+    font-weight: 700;
 }
 
 
@@ -374,6 +395,9 @@ body.menu-open {
         margin: 0;
     }
 
+    :root {
+    --side-padding: 20px;
+}
 }
 
 
@@ -393,4 +417,31 @@ body.menu-open {
 
 .first-view .fade-in {
     transition-duration: 1.2s;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: var(--weight-heading);
+}
+
+:root {
+    --side-padding: 20px;
+}
+
+/* 共通ページタイトル */
+.title,
+.case-page-title {
+    height: var(--page-title-height);
+}
+
+/* スマートフォン */
+@media (max-width: 800px) {
+    .title,
+    .case-page-title {
+        height: var(--page-title-height-mobile);
+    }
 }
