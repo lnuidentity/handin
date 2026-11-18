@@ -80,7 +80,7 @@ font-weight: var(--weight-body-emphasis);
 }
 
 .link-button:hover{
-  background-color:  #230484 ;
+  background-color:  #370b96;
 }
 
 .service{
@@ -271,7 +271,7 @@ font-weight: var(--weight-body-emphasis);
 }
 
 .link-button-case:hover{
-  background-color: #058381 ;
+  background-color: #370b96 ;
 }
 
 
@@ -371,7 +371,7 @@ font-weight: var(--weight-body-emphasis);
 }
 
 .link-button-process:hover{
-  background-color: #058381 ;
+  background-color: #370b96;
 }
 
 

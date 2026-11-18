@@ -56,7 +56,7 @@ line-height: 1.5;
 }
 
 .link-button{
-  background-color: #4211ae;
+  background-color: #370b96;
   display: inline-block;
   min-width: 180px;
   line-height: 48px;
@@ -68,7 +68,7 @@ line-height: 1.5;
 }
 
 .link-button:hover{
-  background-color:#370b96 ;
+  background-color: #4211ae;
 }
 
 .link-button-area p{
