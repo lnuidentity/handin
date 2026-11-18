@@ -95,8 +95,8 @@ font-weight: var(--weight-body-emphasis);
 
 .service .yomi{
   font-size: 13px;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
     text-align: center;
 }
 
@@ -109,7 +109,7 @@ font-weight: var(--weight-body-emphasis);
   margin-top: 20px;
   margin-left: auto;
   margin-right: auto;
-    margin-bottom: 60px;
+    margin-bottom: 20px;
 }
 
 .service h2{
@@ -139,7 +139,7 @@ justify-content:center;
 }
 
 .service-list dl{
-  margin-top: 45px;
+  margin-top: 25px;
 }
 
 .service-list dt{
@@ -186,7 +186,8 @@ font-weight: var(--weight-heading);
 
 .case .casep{
   font-size: 13px;
-  margin-top: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
     text-align: center;
 }
 
@@ -199,7 +200,7 @@ font-weight: var(--weight-heading);
   margin-top: 20px;
   margin-left: auto;
   margin-right: auto;
-    margin-bottom: 100px;
+      margin-bottom: 20px;
 }
 
 .homecase{
@@ -290,7 +291,8 @@ padding-bottom: 55px;
 
 .Process .yomi{
     font-size: 13px;
-  margin-top: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
     text-align: center;
 }
 
@@ -425,8 +427,6 @@ text-align: center;
 
 .case h1{
    font-size: 25px;
-
-  margin-bottom:30px;
 }
 
 .homecase{
