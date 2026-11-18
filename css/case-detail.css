@@ -449,3 +449,11 @@ font-weight: var(--weight-heading);
         box-sizing: border-box;
     }
 }
+
+.arrow {
+  color: #351080;
+  font-size: 24px;
+  font-weight: 400;
+  background: none;
+  border: none;
+}
