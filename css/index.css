@@ -68,7 +68,7 @@
 }
 
 .link-button{
-  background-color: #069390;
+  background-color: #380D83;
   display: inline-block;
   min-width: 180px;
   line-height: 48px;
@@ -84,7 +84,7 @@ font-weight: var(--weight-body-emphasis);
 }
 
 .service{
-  background-color: #dde7eb;
+  background-color: #F4F4F4;
   padding-top: 80px;
   padding-bottom: 80px;
 }

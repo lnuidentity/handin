@@ -75,6 +75,7 @@ font-size: 36px;
     font-size: 13px;
     text-decoration: none;
     transition: 0.3s;
+       background: #F4F4F4;
 }
 
 .case-category-nav a span {
@@ -373,6 +374,11 @@ font-weight: var(--weight-heading);
     }
 }
 
+@media (min-width: 801px) {
+    .case-menu {
+        margin-left: 30px;
+    }
+}
 /* =========================
    Web Design・Illustration
    一時非表示
