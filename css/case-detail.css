@@ -437,17 +437,26 @@ font-weight: var(--weight-heading);
         font-size: 25px;
     }
 
-    .case-other-nav {
-        flex-direction: column;
-        align-items: stretch;
-        gap: 10px;
-    }
 
     .case-other-nav a {
-        width: 100%;
-        min-width: 0;
-        box-sizing: border-box;
-    }
+    display: inline-flex;
+    align-items: center;
+    gap: 20px;
+    padding: 12px 22px;
+    border: 1px solid #380D83;
+    border-radius: 30px;
+    color: #380D83;
+    font-family: var(--font-heading);
+    font-size: 13px;
+    text-decoration: none;
+    transition: 0.3s;
+       background: #F4F4F4;
+}
+
+.case-other-nav a span {
+    font-size: 17px;
+    transition: transform 0.3s;
+}
 }
 
 .arrow {
