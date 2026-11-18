@@ -390,9 +390,15 @@ font-weight: var(--weight-heading);
 }
 
 .arrow {
-  color: #351080;
-  font-size: 24px;
-  font-weight: 400;
-  background: none;
-  border: none;
+    width: 12px;
+    height: 12px;
+    border-top: 2px solid currentColor;
+    border-right: 2px solid currentColor;
+    transform: rotate(45deg);
+    flex-shrink: 0;
+    transition: transform 0.3s;
+}
+
+.case-other-nav a:hover .arrow {
+    transform: rotate(45deg) translate(3px, -3px);
 }
