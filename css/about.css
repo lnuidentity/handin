@@ -15,7 +15,7 @@
 .title h1{
   font-family: var(--font-heading);
   font-size: 32px;
-  font-weight: 700;
+
 }
 
 .title p{
@@ -46,7 +46,7 @@
 
 .about-text h2{
  font-size: 22px;
- font-weight: 700;
+
 }
 
 .about-text h2::after{

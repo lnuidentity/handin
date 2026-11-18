@@ -15,7 +15,6 @@
 .title h1{
   font-family: var(--font-heading);
   font-size: 32px;
-  font-weight: 700;
 }
 
 .title p{
@@ -32,14 +31,14 @@ line-height: 1.5;
 
 .contact h1{
  font-size: 22px;
-  font-weight: 700;
+
   text-align: center;
   margin-bottom: 20px;
 }
 
 .contact h2{
  font-size: 18px;
-  font-weight: 700;
+
   text-align: center;
   margin-bottom: 40px;
 }
@@ -63,7 +62,7 @@ line-height: 1.5;
   line-height: 48px;
   border-radius: 24px;
   font-family: var(--font-heading);
- font-weight: 500;
+  font-weight: var(--weight-body-emphasis);
  font-size: 14px;
  color: #fffcfc;
 }

@@ -19,7 +19,6 @@
 
 .case-page-title h1 {
     font-family: var(--font-heading);
-    font-weight: 700;
 font-size: 36px;
 }
 
@@ -122,7 +121,7 @@ font-size: 36px;
 .case-section-en {
     font-family: var(--font-heading);
     font-size: 30px;
-    font-weight: 700;
+font-weight: var(--weight-heading);
     line-height: 1.4;
     color: #380D83;
 }
@@ -293,7 +292,7 @@ font-size: 36px;
 .case-empty p {
     font-family: var(--font-heading);
     font-size: 13px;
-    font-weight: 700;
+font-weight: var(--weight-heading);
     letter-spacing: 0.12em;
     color: #888;
 }
@@ -303,10 +302,6 @@ font-size: 36px;
 ========================= */
 
 @media (max-width: 800px) {
-
-    .case-page-title {
-        height: 200px;
-    }
 
     .case-page-title h1 {
         font-size: 30px;

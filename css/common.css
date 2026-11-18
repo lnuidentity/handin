@@ -91,7 +91,7 @@ main {
     max-width: var(--content-width);
     height: 50px;
     margin: 0 auto;
-    padding: 0 40px;
+   padding: 0 var(--side-padding);
 
     display: flex;
     justify-content: space-between;
@@ -231,11 +231,6 @@ main {
 @media (max-width: 800px) {
 
     /* ヘッダー */
-
-    .header-inner {
-        padding: 0 20px;
-    }
-
 
 .toggle-menu-button {
     display: block;
@@ -428,9 +423,6 @@ h6 {
     font-weight: var(--weight-heading);
 }
 
-:root {
-    --side-padding: 20px;
-}
 
 /* 共通ページタイトル */
 .title,

@@ -45,14 +45,12 @@
 
 .concept h1{
  font-size: 22px;
-  font-weight: 700;
   text-align: center;
   margin-bottom: 20px;
 }
 
 .concept h2{
  font-size: 18px;
-  font-weight: 700;
   text-align: center;
   margin-bottom: 40px;
 }
@@ -75,8 +73,8 @@
   min-width: 180px;
   line-height: 48px;
   border-radius: 24px;
-  font-family: var(--font-heading);
- font-weight: 500;
+font-family: var(--font-heading);
+font-weight: var(--weight-body-emphasis);
  font-size: 14px;
  color: #fffcfc;
 }
@@ -92,7 +90,6 @@
 }
 .service h1{
  font-size: 28px;
-  font-weight: 700;
   text-align: center;
 }
 
@@ -117,14 +114,12 @@
 
 .service h2{
  font-size: 18px;
-  font-weight: 700;
   text-align: center;
   margin-bottom: 60px;
 }
 
 .last-memo{
  font-size: 18px;
-  font-weight: 700;
   text-align: center;
   margin-top: 80px;
   margin-bottom: 40px;
@@ -148,8 +143,8 @@ justify-content:center;
 }
 
 .service-list dt{
-   font-weight: 700;
    font-size: 18px;
+   font-weight: var(--weight-heading);
 }
 
 .service-list dd{
@@ -168,7 +163,7 @@ justify-content:center;
 .service-list .target{
   margin-top: 30px;
     font-size: 13px;
-     font-weight: 700;
+font-weight: var(--weight-heading);
 }
 
 .service-list .memo{
@@ -186,7 +181,7 @@ justify-content:center;
 
 .case h1{
  font-size: 28px;
-  font-weight: 700;
+
 }
 
 .case .casep{
@@ -243,7 +238,7 @@ margin-right: 0;
 
 .homecase-text h2{
   font-size: 18px;
-  font-weight: 700;
+
   line-height: 30px;
 }
 
@@ -268,8 +263,8 @@ margin-right: 0;
   min-width: 180px;
   line-height: 48px;
   border-radius: 24px;
-  font-family: var(--font-heading);
- font-weight: 500;
+font-family: var(--font-heading);
+font-weight: var(--weight-body-emphasis);
  font-size: 14px;
  color: #fffcfc;
 }
@@ -288,7 +283,7 @@ padding-bottom: 55px;
 
 .Process h2{
   font-size: 22px;
-  font-weight: 700;
+ 
   text-align: center;
   margin-bottom: 20px;
 }
@@ -332,11 +327,11 @@ padding-bottom: 55px;
 
 .Process-list dl{
   margin-top: 20px;
-     font-weight: 700;
+font-weight: var(--weight-heading);
 }
 
 .Process-list dt{
-   font-weight: 700;
+font-weight: var(--weight-heading);
    padding-left: 20px;
 }
 
@@ -367,8 +362,8 @@ margin-bottom: 40px;
   min-width: 180px;
   line-height: 48px;
   border-radius: 24px;
-  font-family: var(--font-heading);
- font-weight: 500;
+font-family: var(--font-heading);
+font-weight: var(--weight-body-emphasis);
  font-size: 14px;
  color: #fffcfc;
 }
@@ -430,7 +425,7 @@ text-align: center;
 
 .case h1{
    font-size: 25px;
-  font-weight: 700;
+
   margin-bottom:30px;
 }
 
@@ -478,7 +473,7 @@ margin-right: 0;
 
 .Process h2{
    font-size: 25px;
-  font-weight: 700;
+
   margin-bottom: 10px;
 }
 
