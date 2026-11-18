@@ -450,3 +450,13 @@ font-weight: var(--weight-heading);
     }
     
 }
+
+.arrow {
+  display: inline-block;
+  width: 9px;
+  height: 9px;
+  border-right: 1.5px solid currentColor;
+  border-bottom: 1.5px solid currentColor;
+  transform: rotate(-45deg);
+  margin-left: 8px;
+}
